@@ -1,7 +1,7 @@
 # QA Rescue Squad
 
-> **Turn organized dev tasks into test cases in seconds.**  
-> **把整理好的开发功能点，快速生成可审核的测试用例 Excel。**
+> **Generate QA test cases from organized dev tasks in seconds.**  
+> **把整理好的开发功能点，秒级生成可审核的测试用例 Excel。**
 
 ## Why this exists / 为什么要做这个
 
@@ -37,6 +37,18 @@ The generated Excel will include rows such as:
 
 See a copy-paste friendly sample here: [docs/demo-example.md](docs/demo-example.md)
 
+## Why star this repo / 为什么值得点 star
+
+- It solves a real QA pain point: turning dev task lists into usable test cases
+- It is easy to try with plain Markdown or Excel
+- It stays focused on one workflow, so it is easy to remember and share
+
+这个项目值得收藏的原因也很简单：
+
+- 解决的是 QA 真实高频痛点
+- 输入门槛低，Markdown 或 Excel 都能试
+- 只做一件事，而且做得足够清楚
+
 ## Quick Start / 快速开始
 
 ### 1. Install the skill
@@ -63,6 +75,10 @@ Or in Chinese:
 ```text
 用 test-crusher 帮我把这份开发功能点生成测试用例 Excel
 ```
+
+### 3. Try the demo
+
+Start with [docs/demo-example.md](docs/demo-example.md), then adapt the input to your own project.
 
 ## Who it is for / 适合谁
 
