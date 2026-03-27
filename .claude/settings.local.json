@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(./push.sh:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(ssh-add:*)",
+      "Bash(GIT_SSH_COMMAND=\"ssh -i ~/.ssh/id_rsa\" git push:*)",
+      "Bash(ssh:*)",
+      "Bash(gh auth:*)",
+      "Bash(curl:*)",
+      "Bash(brew install:*)",
+      "Bash(export:*)"
     ]
   }
 }

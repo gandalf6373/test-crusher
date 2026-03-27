@@ -1,9 +1,9 @@
 ---
-name: qa-rescue-squad
+name: test-crusher
 description: "当你拿到已整理好的开发功能点列表（.md 或 .xlsx 格式），需要生成测试用例 Excel 时使用。"
 ---
 
-# QA Rescue Squad
+# Test Crusher
 
 当用户给你的是**已整理的开发功能点列表**，希望生成可直接审核、执行测试用例 Excel 时，使用这个 skill。
 

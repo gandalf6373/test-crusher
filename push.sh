@@ -8,7 +8,7 @@ cd "$(dirname "$0")"
 # 配置使用 ed25519 SSH key
 git config core.sshCommand "ssh -i ~/.ssh/id_ed25519_spec_crusher -o IdentitiesOnly=yes"
 
-echo "🚀 推送 qa-rescue-squad 到 GitHub..."
+echo "🚀 推送 test-crusher 到 GitHub..."
 echo ""
 
 git add README.md SKILL.md agents/openai.yaml
