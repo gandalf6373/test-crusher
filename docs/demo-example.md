@@ -21,6 +21,10 @@ This is a copyable example you can paste into a chat or ticket to try the skill 
 | DEV-002 | 设备管理 | device_no 重复拦截 | 异常测试 | 已存在相同设备编号 | 返回重复校验错误 |
 | DEV-003 | 设备管理 | station_id 无效拦截 | 边界测试 | station_id 不存在 | 返回校验失败，提示参数无效 |
 
+If the input does not explicitly include an API path or request payload, those columns should stay `待确认`.
+
+如果输入里没有明确给出接口路径或请求参数，这两列就应该保留为 `待确认`。
+
 ## Why this matters / 为什么这有用
 
 The example shows the exact pattern the skill is designed for: take organized dev tasks, expand them into positive and negative cases, and output a reviewable Excel file.

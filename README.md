@@ -42,12 +42,14 @@ See a copy-paste friendly sample here: [docs/demo-example.md](docs/demo-example.
 - It solves a real QA pain point: turning dev task lists into usable test cases
 - It is easy to try with plain Markdown or Excel
 - It stays focused on one workflow, so it is easy to remember and share
+- Fields like execution path and input data are only filled when they are explicitly present in the source material; otherwise they stay `待确认`
 
 这个项目值得收藏的原因也很简单：
 
 - 解决的是 QA 真实高频痛点
 - 输入门槛低，Markdown 或 Excel 都能试
 - 只做一件事，而且做得足够清楚
+- 执行路径和输入数据只在源材料里明确出现时才填写，否则保留 `待确认`
 
 ## Quick Start / 快速开始
 
