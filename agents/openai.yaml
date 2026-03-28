@@ -1,7 +1,7 @@
 interface:
   display_name: "测试粉碎机"
-  short_description: "把开发功能点列表生成测试用例Excel"
-  default_prompt: "当用户给出已整理好的开发功能点列表（.md 或 .xlsx 格式），需要生成测试用例 Excel 时，使用 $test-crusher。"
+  short_description: "先校验开发功能点完整度，再生成测试用例 Excel"
+  default_prompt: "当用户给出已整理好的开发功能点列表（.md 或 .xlsx 格式），需要生成测试用例 Excel 时，使用 $test-crusher，并先校验输入完整度；如果关键信息不足，先返回缺失项清单，不要强行生成。"
 
 policy:
   allow_implicit_invocation: true
